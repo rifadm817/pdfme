@@ -48,7 +48,6 @@
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces",
     "prettier": "npm run prettier --workspaces",
-    "build": "npm run -w packages/ui build && npm run -w packages/generator build",
     "start": "node server.js"
   },
   "devDependencies": {
